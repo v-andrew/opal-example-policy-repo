@@ -31,6 +31,7 @@ allow {
 
 # Allow bob to do anything
 allow {
+	print("input", input)
 	input.user == "bob"
 }
 
